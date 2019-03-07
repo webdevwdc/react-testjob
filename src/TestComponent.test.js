@@ -1,0 +1,3 @@
+it('TestComponent without crashing', () => {
+ 
+});

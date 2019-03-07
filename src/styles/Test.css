@@ -1,0 +1,114 @@
+.test {
+    width: 1322px;
+    height: calc(100vh - 50px);
+    border: 1px solid #161C29;
+    border-radius: 6px;
+    background-color: #1A202E;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.15);
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.testHeader{
+    width: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #212635;
+    margin-bottom: 40px;
+    color: #D2D4D6;
+    font-size: 15px;
+}
+
+
+.testContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 -40px;
+}
+
+.testItem {
+    padding: 0 40px;
+    width: 33.33%;
+}
+
+.testItemTitle {
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.testItemSubTitle  {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.testItemProgress .progressBar{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+}
+.valueContainer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.testItemProgress .baseValue{margin-bottom: 10px;}
+.testItemProgress .progressValue{margin-bottom: 10px;}
+.testItemProgress .totalValue{margin-bottom: 10px;}
+.testItemProgress .progressContainer{width: 100%; margin-bottom: 60px; background: #272F42; position: relative;}
+
+.startingLine{
+    position: absolute;
+    height: 40px;
+    bottom: -40px;
+    left: 0;
+    border-left: 1px dotted #4B5467;
+}
+
+.progressLine{
+    position: absolute;
+    right: 0;
+    top: 18px;
+    border-bottom: 1px dotted #4B5467;
+    transform: skewY(8deg);
+    height: 1px;
+    transform-origin: 0 100%;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.col {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 0 0 12px;
+    width: 45%;
+    margin-bottom: 12px;
+    border-bottom: 1px solid #252D3F;
+}
+
+.col.noGap{
+    padding-bottom: 0;
+    border-bottom: 0;
+}
+
+.col.fullWidth{
+    width: 100%;
+}
+
+.col div{
+    white-space: nowrap;
+}
+
+.totalPrice{
+    font-size: 18px;
+    color: #fff;
+}

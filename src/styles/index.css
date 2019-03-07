@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: Verdana,Helvetica, sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    color: #586174;
+}
+.App {
+    margin: 0;
+    background-color: #161B2A;
+    padding: 25px;
+}
+.colorWhite{
+    color: #fff;
+}
